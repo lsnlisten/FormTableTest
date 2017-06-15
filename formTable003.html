@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="formTable003.css">
+</head>
+<body>
+<div>
+    <input type="radio" name="stage" checked="checked" onchange="changeCheck()"/>在校生
+    <input type="radio" name="stage" onchange="changeCheck()"/>非在校生
+</div>
+<div id="select1">
+    <label>地区</label>
+    <select id="areaId" onchange="reSelect()">
+        <option selected="selected" value="1">北京</option>
+        <option value="2">南京</option>
+        <option value="3">上海</option>
+    </select>
+    <label>学校</label>
+    <select id="schoolId">
+    </select>
+</div>
+<div id="select2" class="hide">
+    <label>就业单位</label>
+    <input type="text"/>
+</div>
+<script src="formTable003.js"></script>
+</body>
+</html>

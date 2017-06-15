@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="formTable002.css">
+    <link rel="stylesheet" href="framework/bootstrap-3.0.0/css/bootstrap.css">
+</head>
+<body>
+<form action="#">
+    <table class="table1">
+        <tr>
+            <td class="contentName">
+                <label>名称</label>
+            </td>
+            <td >
+                <input type="text" class="contentText" id="name" onfocus="checkFocus(this.id)" onblur="checkBlur(this.id)"/>
+            </td>
+        </tr>
+        <tr class="contentInfo">
+            <td></td>
+            <td>
+                <span class="info" id="name-tip"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="contentName">
+                <label>密码</label>
+            </td>
+            <td >
+                <input type="password" class="contentText" id="password" onfocus="checkFocus(this.id)" onblur="checkBlur(this.id)"/>
+            </td>
+        </tr>
+        <tr class="contentInfo">
+            <td></td>
+            <td>
+                <span class="info" id="password-tip"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="contentName">
+                <label>密码确认</label>
+            </td>
+            <td >
+                <input type="password" class="contentText" id="repassword" onfocus="checkFocus(this.id)" onblur="checkBlur(this.id)"/>
+            </td>
+        </tr>
+        <tr class="contentInfo">
+            <td></td>
+            <td>
+                <span class="info" id="repassword-tip"></span>
+            </td>
+
+        </tr>
+        <tr>
+            <td class="contentName">
+                <label>邮箱</label>
+            </td>
+            <td >
+                <input type="text" class="contentText" id="email" onfocus="checkFocus(this.id)" onblur="checkBlur(this.id)"/>
+            </td>
+        </tr>
+        <tr class="contentInfo">
+            <td></td>
+            <td>
+                <span class="info" id="email-tip"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="contentName">
+                <label>手机</label>
+            </td>
+            <td >
+                <input type="text" class="contentText" id="phone" onfocus="checkFocus(this.id)" onblur="checkBlur(this.id)"/>
+            </td>
+        </tr>
+        <tr class="contentInfo" >
+            <td></td>
+            <td>
+                <span class="info" id="phone-tip"></span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="validate" class="btn  btn-primary" >验证</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<script src="formTable002.js"></script>
+</body>
+</html>

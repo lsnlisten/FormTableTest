@@ -1,0 +1,44 @@
+/*去除所有标签的外边框和内填充部分*/
+*{
+    margin:0;
+    padding:0;
+}
+/*文字、文本框、按钮样式*/
+.l1{
+    font-size: 20px;
+    width:100px;
+    text-align: center;
+}
+#name{
+    width:300px;
+    height:50px;
+    font-size: 20px;
+    vertical-align:middle;/*垂直居中，保证文本框和按钮对齐*/
+    border-radius: 5px;
+    border:2px solid #a1a1a1;
+}
+#name:focus,#validate:focus{
+    outline:none;/*文本框和按钮聚焦时，去除了显示的默认蓝色边框样式*/
+}
+#validate{
+    width:70px;
+    height:50px;
+    margin:0 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.verifyInfo{
+    font-size:16px;
+    color: #999;
+    margin-left: 100px;
+}
+/*整体框架居中*/
+.form1Ctx{
+    width:500px;
+    margin-top:40px;
+    margin-left: 20px;
+}
+.form1Info{
+    width:500px;
+    margin-left: 20px;
+ }
